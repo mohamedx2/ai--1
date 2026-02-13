@@ -1,0 +1,320 @@
+2026-02-13 05:06:33 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:06:42 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:06:42 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:06:42 - fastapi_app - INFO - startup_event:290 - Assistant Agricole Multilingue FastAPI starting up...
+2026-02-13 05:06:42 - fastapi_app - INFO - startup_event:291 - Web interface available at: /
+2026-02-13 05:06:42 - fastapi_app - INFO - startup_event:292 - API Documentation available at: /docs
+2026-02-13 05:06:57 - fastapi_app - INFO - process_text_input:121 - [req_1770955617] Processing text input: hbvhi...
+2026-02-13 05:06:57 - utils - WARNING - detect_language:73 - Unsupported language detected: vi, falling back to English
+2026-02-13 05:06:57 - fastapi_app - INFO - process_text_input:136 - [req_1770955617] Retrieving context
+2026-02-13 05:06:58 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:06:58 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:06:58 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:06:58 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:06:59 - huggingface_hub.utils._http - WARNING - _warn_on_warning_headers:779 - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-13 05:06:59 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:07:00 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:07:00 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:07:00 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:07:00 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:07:00 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:07:00 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:07:00 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:07:00 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:07:02 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-13 05:07:03 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:07:03 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-13 05:07:03 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-13 05:07:03 - retrieval - INFO - _initialize:65 - Embeddings model loaded
+2026-02-13 05:07:03 - retrieval - INFO - _load_knowledge_base:103 - Loaded 16 document chunks
+2026-02-13 05:07:03 - retrieval - ERROR - _create_vector_store:121 - Failed to create vector store: 'Document' object has no attribute 'id'
+2026-02-13 05:07:03 - fastapi_app - INFO - process_text_input:140 - [req_1770955617] Generating response
+2026-02-13 05:07:03 - llm_response - INFO - _initialize_model:28 - Loading model: microsoft/DialoGPT-medium
+2026-02-13 05:07:03 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:07:03 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:07:03 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-02-13 05:07:03 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium "HTTP/1.1 200 OK"
+2026-02-13 05:07:04 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/commits/main "HTTP/1.1 200 OK"
+2026-02-13 05:07:04 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/discussions?p=0 "HTTP/1.1 200 OK"
+2026-02-13 05:07:04 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/commits/refs%2Fpr%2F22 "HTTP/1.1 200 OK"
+2026-02-13 05:07:04 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/refs%2Fpr%2F22/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:07:04 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/refs%2Fpr%2F22/model.safetensors "HTTP/1.1 302 Found"
+2026-02-13 05:07:04 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:07:04 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/generation_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:07:05 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:07:05 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:07:05 - llm_response - INFO - _initialize_model:57 - Model loaded successfully
+2026-02-13 05:07:05 - llm_response - INFO - generate_response:170 - Generated 5 characters response in en
+2026-02-13 05:07:05 - fastapi_app - INFO - process_text_input:147 - [req_1770955617] Request completed in 8.22s
+2026-02-13 05:07:25 - fastapi_app - INFO - process_text_input:121 - [req_1770955645] Processing text input: how are you...
+2026-02-13 05:07:25 - utils - INFO - detect_language:69 - Language detected by langdetect: en
+2026-02-13 05:07:25 - fastapi_app - INFO - process_text_input:136 - [req_1770955645] Retrieving context
+2026-02-13 05:07:25 - fastapi_app - INFO - process_text_input:140 - [req_1770955645] Generating response
+2026-02-13 05:07:25 - llm_response - INFO - generate_response:170 - Generated 29 characters response in en
+2026-02-13 05:07:25 - fastapi_app - INFO - process_text_input:147 - [req_1770955645] Request completed in 0.63s
+2026-02-13 05:08:17 - fastapi_app - INFO - process_text_input:121 - [req_1770955697] Processing text input: How much water does wheat need?...
+2026-02-13 05:08:17 - utils - INFO - detect_language:61 - Language detected by keywords: en
+2026-02-13 05:08:17 - fastapi_app - INFO - process_text_input:136 - [req_1770955697] Retrieving context
+2026-02-13 05:08:17 - fastapi_app - INFO - process_text_input:140 - [req_1770955697] Generating response
+2026-02-13 05:08:18 - llm_response - INFO - generate_response:170 - Generated 4 characters response in en
+2026-02-13 05:08:18 - fastapi_app - INFO - process_text_input:147 - [req_1770955697] Request completed in 0.27s
+2026-02-13 05:08:32 - fastapi_app - INFO - process_text_input:121 - [req_1770955712] Processing text input: What is the best time to plant corn and how much water does it need?...
+2026-02-13 05:08:32 - utils - INFO - detect_language:61 - Language detected by keywords: en
+2026-02-13 05:08:32 - fastapi_app - INFO - process_text_input:136 - [req_1770955712] Retrieving context
+2026-02-13 05:08:32 - fastapi_app - INFO - process_text_input:140 - [req_1770955712] Generating response
+2026-02-13 05:08:32 - llm_response - INFO - generate_response:170 - Generated 6 characters response in en
+2026-02-13 05:08:32 - fastapi_app - INFO - process_text_input:147 - [req_1770955712] Request completed in 0.35s
+2026-02-13 05:08:37 - fastapi_app - INFO - process_text_input:121 - [req_1770955717] Processing text input: When should I plant wheat?...
+2026-02-13 05:08:37 - utils - INFO - detect_language:69 - Language detected by langdetect: en
+2026-02-13 05:08:37 - fastapi_app - INFO - process_text_input:136 - [req_1770955717] Retrieving context
+2026-02-13 05:08:37 - fastapi_app - INFO - process_text_input:140 - [req_1770955717] Generating response
+2026-02-13 05:08:38 - llm_response - INFO - generate_response:170 - Generated 5 characters response in en
+2026-02-13 05:08:38 - fastapi_app - INFO - process_text_input:147 - [req_1770955717] Request completed in 0.32s
+2026-02-13 05:08:44 - fastapi_app - INFO - process_text_input:121 - [req_1770955724] Processing text input: Comment irriguer le blé?...
+2026-02-13 05:08:44 - utils - INFO - detect_language:69 - Language detected by langdetect: fr
+2026-02-13 05:08:44 - fastapi_app - INFO - process_text_input:136 - [req_1770955724] Retrieving context
+2026-02-13 05:08:44 - fastapi_app - INFO - process_text_input:140 - [req_1770955724] Generating response
+2026-02-13 05:08:44 - llm_response - INFO - generate_response:170 - Generated 3 characters response in fr
+2026-02-13 05:08:44 - fastapi_app - INFO - process_text_input:147 - [req_1770955724] Request completed in 0.27s
+2026-02-13 05:09:13 - fastapi_app - INFO - process_text_input:121 - [req_1770955753] Processing text input: How much water does wheat need and when should I irrigate it?...
+2026-02-13 05:09:13 - utils - INFO - detect_language:61 - Language detected by keywords: en
+2026-02-13 05:09:13 - fastapi_app - INFO - process_text_input:136 - [req_1770955753] Retrieving context
+2026-02-13 05:09:13 - fastapi_app - INFO - process_text_input:140 - [req_1770955753] Generating response
+2026-02-13 05:09:13 - llm_response - INFO - generate_response:170 - Generated 18 characters response in en
+2026-02-13 05:09:13 - fastapi_app - INFO - process_text_input:147 - [req_1770955753] Request completed in 0.43s
+2026-02-13 05:09:27 - fastapi_app - INFO - process_text_input:121 - [req_1770955767] Processing text input: ¿Cuánta agua necesita el trigo?...
+2026-02-13 05:09:27 - utils - INFO - detect_language:61 - Language detected by keywords: es
+2026-02-13 05:09:27 - fastapi_app - INFO - process_text_input:136 - [req_1770955767] Retrieving context
+2026-02-13 05:09:27 - fastapi_app - INFO - process_text_input:140 - [req_1770955767] Generating response
+2026-02-13 05:09:27 - llm_response - INFO - generate_response:170 - Generated 3 characters response in es
+2026-02-13 05:09:27 - fastapi_app - INFO - process_text_input:147 - [req_1770955767] Request completed in 0.31s
+2026-02-13 05:14:57 - fastapi_app - INFO - shutdown_event:297 - Assistant Agricole Multilingue FastAPI shutting down...
+2026-02-13 05:15:07 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:15:07 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:15:07 - fastapi_app - INFO - startup_event:290 - Assistant Agricole Multilingue FastAPI starting up...
+2026-02-13 05:15:07 - fastapi_app - INFO - startup_event:291 - Web interface available at: /
+2026-02-13 05:15:07 - fastapi_app - INFO - startup_event:292 - API Documentation available at: /docs
+2026-02-13 05:15:07 - fastapi_app - INFO - process_text_input:121 - [req_1770956107] Processing text input: How much water does wheat need and when should I irrigate it?...
+2026-02-13 05:15:07 - utils - INFO - detect_language:61 - Language detected by keywords: en
+2026-02-13 05:15:07 - fastapi_app - INFO - process_text_input:136 - [req_1770956107] Retrieving context
+2026-02-13 05:15:08 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:08 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:08 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:08 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:08 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:08 - huggingface_hub.utils._http - WARNING - _warn_on_warning_headers:779 - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-13 05:15:08 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:08 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:08 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-13 05:15:08 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:08 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:15:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:15:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:15:11 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-13 05:15:12 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:12 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:12 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-13 05:15:12 - retrieval - INFO - _initialize:65 - Embeddings model loaded
+2026-02-13 05:15:12 - retrieval - INFO - _load_knowledge_base:103 - Loaded 16 document chunks
+2026-02-13 05:15:12 - retrieval - ERROR - _create_vector_store:121 - Failed to create vector store: 'Document' object has no attribute 'id'
+2026-02-13 05:15:12 - fastapi_app - INFO - process_text_input:140 - [req_1770956107] Generating response
+2026-02-13 05:15:12 - llm_response - INFO - _select_best_model:42 - Attempting to load model: google/flan-t5-large
+2026-02-13 05:15:12 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/google/flan-t5-large/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:12 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-large/0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:12 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/google/flan-t5-large/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:12 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-large/0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:12 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:15:12 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:15:12 - llm_response - INFO - _select_best_model:48 - Selected model: google/flan-t5-large
+2026-02-13 05:15:12 - llm_response - INFO - _initialize_model:83 - Initializing model: google/flan-t5-large
+2026-02-13 05:15:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/google/flan-t5-large/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-large/0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/google/flan-t5-large/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-large/0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:15:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:15:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/google/flan-t5-large/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-large/0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:14 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/google/flan-t5-large/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:14 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-large/0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a/generation_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:14 - llm_response - ERROR - _initialize_t5_model:125 - T5 initialization failed: "Unknown task text2text-generation, available tasks are ['any-to-any', 'audio-classification', 'automatic-speech-recognition', 'depth-estimation', 'document-question-answering', 'feature-extraction', 'fill-mask', 'image-classification', 'image-feature-extraction', 'image-segmentation', 'image-text-to-text', 'image-to-image', 'keypoint-matching', 'mask-generation', 'ner', 'object-detection', 'question-answering', 'sentiment-analysis', 'table-question-answering', 'text-classification', 'text-generation', 'text-to-audio', 'text-to-speech', 'token-classification', 'video-classification', 'visual-question-answering', 'vqa', 'zero-shot-audio-classification', 'zero-shot-classification', 'zero-shot-image-classification', 'zero-shot-object-detection', 'translation_XX_to_YY']"
+2026-02-13 05:15:14 - llm_response - ERROR - _initialize_model:101 - Failed to initialize model google/flan-t5-large: "Unknown task text2text-generation, available tasks are ['any-to-any', 'audio-classification', 'automatic-speech-recognition', 'depth-estimation', 'document-question-answering', 'feature-extraction', 'fill-mask', 'image-classification', 'image-feature-extraction', 'image-segmentation', 'image-text-to-text', 'image-to-image', 'keypoint-matching', 'mask-generation', 'ner', 'object-detection', 'question-answering', 'sentiment-analysis', 'table-question-answering', 'text-classification', 'text-generation', 'text-to-audio', 'text-to-speech', 'token-classification', 'video-classification', 'visual-question-answering', 'vqa', 'zero-shot-audio-classification', 'zero-shot-classification', 'zero-shot-image-classification', 'zero-shot-object-detection', 'translation_XX_to_YY']"
+2026-02-13 05:15:14 - llm_response - INFO - _load_fallback_model:198 - Loading fallback model: gpt2
+2026-02-13 05:15:14 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/gpt2/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:14 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/gpt2/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:14 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/gpt2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:14 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/openai-community/gpt2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:15:14 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/gpt2/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:15:15 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/openai-community/gpt2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:15:15 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/gpt2/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:15 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/gpt2/resolve/main/generation_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:15:15 - llm_response - INFO - generate_response:276 - Generating response with gpt2 (gpt2)
+2026-02-13 05:15:20 - llm_response - INFO - generate_response:328 - Generated 981 characters response in en
+2026-02-13 05:15:20 - fastapi_app - INFO - process_text_input:147 - [req_1770956107] Request completed in 13.10s
+2026-02-13 05:15:26 - fastapi_app - INFO - process_text_input:121 - [req_1770956126] Processing text input: Comment irriguer le blé et quand le planter?...
+2026-02-13 05:15:26 - utils - INFO - detect_language:69 - Language detected by langdetect: fr
+2026-02-13 05:15:26 - fastapi_app - INFO - process_text_input:136 - [req_1770956126] Retrieving context
+2026-02-13 05:15:26 - fastapi_app - INFO - process_text_input:140 - [req_1770956126] Generating response
+2026-02-13 05:15:26 - llm_response - INFO - generate_response:276 - Generating response with gpt2 (gpt2)
+2026-02-13 05:15:31 - llm_response - INFO - generate_response:328 - Generated 842 characters response in fr
+2026-02-13 05:15:31 - fastapi_app - INFO - process_text_input:147 - [req_1770956126] Request completed in 5.22s
+2026-02-13 05:15:37 - fastapi_app - INFO - process_text_input:121 - [req_1770956137] Processing text input: What is the best time to plant corn?...
+2026-02-13 05:15:37 - utils - INFO - detect_language:69 - Language detected by langdetect: en
+2026-02-13 05:15:37 - fastapi_app - INFO - process_text_input:136 - [req_1770956137] Retrieving context
+2026-02-13 05:15:37 - fastapi_app - INFO - process_text_input:140 - [req_1770956137] Generating response
+2026-02-13 05:15:37 - llm_response - INFO - generate_response:276 - Generating response with gpt2 (gpt2)
+2026-02-13 05:15:42 - llm_response - INFO - generate_response:328 - Generated 872 characters response in en
+2026-02-13 05:15:42 - fastapi_app - INFO - process_text_input:147 - [req_1770956137] Request completed in 5.14s
+2026-02-13 05:16:53 - fastapi_app - INFO - shutdown_event:297 - Assistant Agricole Multilingue FastAPI shutting down...
+2026-02-13 05:17:03 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:17:03 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:17:03 - fastapi_app - INFO - startup_event:290 - Assistant Agricole Multilingue FastAPI starting up...
+2026-02-13 05:17:03 - fastapi_app - INFO - startup_event:291 - Web interface available at: /
+2026-02-13 05:17:03 - fastapi_app - INFO - startup_event:292 - API Documentation available at: /docs
+2026-02-13 05:17:18 - fastapi_app - INFO - shutdown_event:297 - Assistant Agricole Multilingue FastAPI shutting down...
+2026-02-13 05:17:30 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:17:30 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:17:30 - fastapi_app - INFO - startup_event:290 - Assistant Agricole Multilingue FastAPI starting up...
+2026-02-13 05:17:30 - fastapi_app - INFO - startup_event:291 - Web interface available at: /
+2026-02-13 05:17:30 - fastapi_app - INFO - startup_event:292 - API Documentation available at: /docs
+2026-02-13 05:17:50 - fastapi_app - INFO - shutdown_event:297 - Assistant Agricole Multilingue FastAPI shutting down...
+2026-02-13 05:18:08 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:18:08 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:18:08 - fastapi_app - INFO - startup_event:294 - Assistant Agricole Multilingue FastAPI starting up...
+2026-02-13 05:18:08 - fastapi_app - INFO - startup_event:295 - Web interface available at: /
+2026-02-13 05:18:08 - fastapi_app - INFO - startup_event:296 - API Documentation available at: /docs
+2026-02-13 05:18:08 - fastapi_app - INFO - process_text_input:125 - [req_1770956288] Processing text input: How much water does wheat need and when should I irrigate it?...
+2026-02-13 05:18:08 - utils - INFO - detect_language:61 - Language detected by keywords: en
+2026-02-13 05:18:08 - fastapi_app - INFO - process_text_input:140 - [req_1770956288] Retrieving context
+2026-02-13 05:18:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:18:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:18:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:18:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-13 05:18:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:09 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:10 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:18:11 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:18:11 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:18:12 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-13 05:18:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:18:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-13 05:18:13 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-13 05:18:13 - retrieval - INFO - _initialize:65 - Embeddings model loaded
+2026-02-13 05:18:13 - retrieval - INFO - _load_knowledge_base:103 - Loaded 16 document chunks
+2026-02-13 05:18:13 - retrieval - ERROR - _create_vector_store:121 - Failed to create vector store: 'Document' object has no attribute 'id'
+2026-02-13 05:18:13 - fastapi_app - INFO - process_text_input:144 - [req_1770956288] Generating response
+2026-02-13 05:18:13 - llm_response - INFO - _select_best_model:54 - Gemini API key available - selected Gemini 2.5 Flash
+2026-02-13 05:18:13 - llm_response - INFO - _initialize_model:98 - Initializing model: gemini-2.5-flash
+2026-02-13 05:18:13 - llm_response - INFO - _initialize_gemini:128 - Gemini gemini-2.5-flash initialized successfully
+2026-02-13 05:18:13 - llm_response - INFO - _initialize_model:115 - Model loaded successfully: gemini-2.5-flash
+2026-02-13 05:18:13 - llm_response - INFO - generate_response:320 - Generating response with Gemini gemini-2.5-flash
+2026-02-13 05:18:31 - llm_response - INFO - _generate_gemini_response:343 - Generated 9833 characters response with Gemini in en
+2026-02-13 05:18:31 - fastapi_app - INFO - process_text_input:151 - [req_1770956288] Request completed in 22.71s
+2026-02-13 05:24:54 - fastapi_app - INFO - process_text_input:125 - [req_1770956694] Processing text input: How much water does wheat need?...
+2026-02-13 05:24:54 - utils - INFO - detect_language:61 - Language detected by keywords: en
+2026-02-13 05:24:54 - fastapi_app - INFO - process_text_input:140 - [req_1770956694] Retrieving context
+2026-02-13 05:24:54 - fastapi_app - INFO - process_text_input:144 - [req_1770956694] Generating response
+2026-02-13 05:24:54 - llm_response - INFO - generate_response:320 - Generating response with Gemini gemini-2.5-flash
+2026-02-13 05:25:09 - llm_response - INFO - _generate_gemini_response:343 - Generated 10736 characters response with Gemini in en
+2026-02-13 05:25:09 - fastapi_app - INFO - process_text_input:151 - [req_1770956694] Request completed in 15.40s

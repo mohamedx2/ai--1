@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistant Agricole Multilingue - Web Client</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2ecc71, #27ae60);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .main-container {
+            flex: 1;
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            gap: 20px;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        .input-section, .output-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            flex: 1;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .input-method {
+            margin-bottom: 20px;
+        }
+
+        .tab-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tab-btn {
+            padding: 10px 20px;
+            border: none;
+            background: #ecf0f1;
+            color: #2c3e50;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .tab-btn.active {
+            background: #3498db;
+            color: white;
+        }
+
+        .tab-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .text-input {
+            width: 100%;
+            min-height: 120px;
+            padding: 15px;
+            border: 2px solid #bdc3c7;
+            border-radius: 10px;
+            font-size: 1rem;
+            resize: vertical;
+            font-family: inherit;
+        }
+
+        .text-input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .audio-controls {
+            text-align: center;
+            padding: 30px;
+            border: 2px dashed #bdc3c7;
+            border-radius: 10px;
+            background: #f8f9fa;
+        }
+
+        .record-btn {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: none;
+            background: #e74c3c;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+        }
+
+        .record-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .record-btn.recording {
+            background: #c0392b;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7); }
+            70% { box-shadow: 0 0 0 20px rgba(231, 76, 60, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .submit-btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .transcript-display {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #3498db;
+            font-style: italic;
+            min-height: 50px;
+        }
+
+        .response-display {
+            background: #e8f5e8;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #27ae60;
+            min-height: 150px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+        }
+
+        .status-indicator {
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .status-ready { background: #d4edda; color: #155724; }
+        .status-processing { background: #fff3cd; color: #856404; }
+        .status-error { background: #f8d7da; color: #721c24; }
+
+        .examples {
+            margin-top: 20px;
+        }
+
+        .example-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            background: #ecf0f1;
+            border: 1px solid #bdc3c7;
+            border-radius: 6px;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .example-btn:hover {
+            background: #d5dbdb;
+        }
+
+        .conversation-info {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            color: #1565c0;
+        }
+
+        .clear-btn {
+            padding: 8px 16px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        .clear-btn:hover {
+            background: #c0392b;
+        }
+
+        @media (max-width: 768px) {
+            .main-container {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .input-section, .output-section {
+                padding: 20px;
+            }
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌱 Assistant Agricole Multilingue</h1>
+        <p>Your multilingual agricultural advisor - Web API Edition</p>
+    </div>
+
+    <div class="main-container">
+        <div class="input-section">
+            <h2 class="section-title">📝 Input</h2>
+            
+            <div class="conversation-info">
+                <strong>Conversation ID:</strong> <span id="conversationId">Loading...</span>
+                <button class="clear-btn" onclick="clearConversation()">Clear Conversation</button>
+            </div>
+
+            <div class="tab-buttons">
+                <button class="tab-btn active" onclick="switchTab('text')">💬 Text</button>
+                <button class="tab-btn" onclick="switchTab('audio')">🎤 Voice</button>
+            </div>
+
+            <div id="textTab" class="input-method">
+                <textarea 
+                    id="textInput" 
+                    class="text-input" 
+                    placeholder="Type your agricultural question here...&#10;e.g., How much water does wheat need?"
+                ></textarea>
+            </div>
+
+            <div id="audioTab" class="input-method" style="display: none;">
+                <div class="audio-controls">
+                    <button id="recordBtn" class="record-btn" onclick="toggleRecording()">🎤</button>
+                    <div id="audioStatus">Click to start recording</div>
+                </div>
+                <div id="transcriptDisplay" class="transcript-display" style="display: none;">
+                    <strong>Transcript:</strong> <span id="transcriptText"></span>
+                </div>
+            </div>
+
+            <button id="submitBtn" class="submit-btn" onclick="submitInput()">
+                🚀 Get Agricultural Advice
+            </button>
+
+            <div class="examples">
+                <h3>💡 Example Questions:</h3>
+                <button class="example-btn" onclick="setExample('How much water does wheat need?')">
+                    How much water does wheat need?
+                </button>
+                <button class="example-btn" onclick="setExample('What is the best time to plant corn?')">
+                    What is the best time to plant corn?
+                </button>
+                <button class="example-btn" onclick="setExample('How do I control aphids naturally?')">
+                    How do I control aphids naturally?
+                </button>
+                <button class="example-btn" onclick="setExample('Comment irriguer le blé?')">
+                    Comment irriguer le blé? (French)
+                </button>
+                <button class="example-btn" onclick="setExample('¿Cuándo plantar maíz?')">
+                    ¿Cuándo plantar maíz? (Spanish)
+                </button>
+            </div>
+        </div>
+
+        <div class="output-section">
+            <h2 class="section-title">📊 Agricultural Advice</h2>
+            
+            <div id="statusIndicator" class="status-indicator status-ready">
+                🟢 Ready to help!
+            </div>
+
+            <div id="transcriptSection" style="display: none;">
+                <h3>🎤 What you said:</h3>
+                <div id="userTranscript" class="transcript-display"></div>
+            </div>
+
+            <h3>🤖 Assistant Response:</h3>
+            <div id="responseDisplay" class="response-display">
+                Your agricultural advice will appear here...
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.origin + '/api';
+        let conversationId = null;
+        let mediaRecorder = null;
+        let audioChunks = [];
+        let isRecording = false;
+
+        // Initialize conversation
+        async function initConversation() {
+            try {
+                const response = await fetch(`${API_BASE}/stats`);
+                const data = await response.json();
+                conversationId = generateConversationId();
+                document.getElementById('conversationId').textContent = conversationId;
+            } catch (error) {
+                console.error('Failed to initialize:', error);
+                conversationId = generateConversationId();
+                document.getElementById('conversationId').textContent = conversationId;
+            }
+        }
+
+        function generateConversationId() {
+            return 'conv_' + Math.random().toString(36).substr(2, 9);
+        }
+
+        function switchTab(tab) {
+            const textTab = document.getElementById('textTab');
+            const audioTab = document.getElementById('audioTab');
+            const textBtn = document.querySelector('.tab-btn');
+            const audioBtn = document.querySelectorAll('.tab-btn')[1];
+
+            if (tab === 'text') {
+                textTab.style.display = 'block';
+                audioTab.style.display = 'none';
+                textBtn.classList.add('active');
+                audioBtn.classList.remove('active');
+            } else {
+                textTab.style.display = 'none';
+                audioTab.style.display = 'block';
+                textBtn.classList.remove('active');
+                audioBtn.classList.add('active');
+            }
+        }
+
+        function setExample(text) {
+            document.getElementById('textInput').value = text;
+            switchTab('text');
+        }
+
+        function updateStatus(message, type = 'ready') {
+            const statusEl = document.getElementById('statusIndicator');
+            statusEl.textContent = message;
+            statusEl.className = `status-indicator status-${type}`;
+        }
+
+        async function submitInput() {
+            const activeTab = document.getElementById('textTab').style.display !== 'none' ? 'text' : 'audio';
+            let inputData;
+
+            if (activeTab === 'text') {
+                const text = document.getElementById('textInput').value.trim();
+                if (!text) {
+                    updateStatus('❌ Please enter a question', 'error');
+                    return;
+                }
+                inputData = { text: text, conversation_id: conversationId };
+            } else {
+                if (!audioChunks.length) {
+                    updateStatus('❌ Please record audio first', 'error');
+                    return;
+                }
+                
+                const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                const audioBase64 = await blobToBase64(audioBlob);
+                inputData = { audio_data: audioBase64, conversation_id: conversationId };
+            }
+
+            updateStatus('🔄 Processing...', 'processing');
+            document.getElementById('submitBtn').disabled = true;
+
+            try {
+                const endpoint = activeTab === 'text' ? '/text' : '/audio';
+                const response = await fetch(`${API_BASE}${endpoint}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(inputData)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                displayResponse(data);
+                updateStatus('✅ Response generated successfully!', 'ready');
+
+            } catch (error) {
+                console.error('Error:', error);
+                updateStatus('❌ Error processing request', 'error');
+                document.getElementById('responseDisplay').textContent = 
+                    'Error: ' + error.message;
+            } finally {
+                document.getElementById('submitBtn').disabled = false;
+            }
+        }
+
+        function displayResponse(data) {
+            // Show transcript if available
+            if (data.transcript) {
+                document.getElementById('transcriptSection').style.display = 'block';
+                document.getElementById('userTranscript').textContent = data.transcript;
+            }
+
+            // Display response
+            document.getElementById('responseDisplay').textContent = data.response;
+
+            // Update conversation ID if new
+            if (data.conversation_id && data.conversation_id !== conversationId) {
+                conversationId = data.conversation_id;
+                document.getElementById('conversationId').textContent = conversationId;
+            }
+        }
+
+        async function toggleRecording() {
+            const recordBtn = document.getElementById('recordBtn');
+            const audioStatus = document.getElementById('audioStatus');
+
+            if (!isRecording) {
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    mediaRecorder = new MediaRecorder(stream);
+                    audioChunks = [];
+
+                    mediaRecorder.ondataavailable = (event) => {
+                        audioChunks.push(event.data);
+                    };
+
+                    mediaRecorder.onstop = async () => {
+                        const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                        const transcript = await transcribeAudio(audioBlob);
+                        document.getElementById('transcriptDisplay').style.display = 'block';
+                        document.getElementById('transcriptText').textContent = transcript;
+                        audioStatus.textContent = 'Recording stopped. Ready to submit.';
+                    };
+
+                    mediaRecorder.start();
+                    isRecording = true;
+                    recordBtn.classList.add('recording');
+                    recordBtn.textContent = '⏹️';
+                    audioStatus.textContent = 'Recording... Click to stop';
+
+                } catch (error) {
+                    console.error('Error accessing microphone:', error);
+                    audioStatus.textContent = 'Error: Could not access microphone';
+                }
+            } else {
+                mediaRecorder.stop();
+                mediaRecorder.stream.getTracks().forEach(track => track.stop());
+                isRecording = false;
+                recordBtn.classList.remove('recording');
+                recordBtn.textContent = '🎤';
+            }
+        }
+
+        async function transcribeAudio(audioBlob) {
+            // This would normally call the transcription API
+            // For now, return a placeholder
+            return "Audio transcription will appear here...";
+        }
+
+        function blobToBase64(blob) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onloadend = () => resolve(reader.result.split(',')[1]);
+                reader.onerror = reject;
+                reader.readAsDataURL(blob);
+            });
+        }
+
+        async function clearConversation() {
+            if (!conversationId) return;
+
+            try {
+                await fetch(`${API_BASE}/conversation/${conversationId}`, {
+                    method: 'DELETE'
+                });
+                
+                conversationId = generateConversationId();
+                document.getElementById('conversationId').textContent = conversationId;
+                document.getElementById('responseDisplay').textContent = 'Your agricultural advice will appear here...';
+                document.getElementById('transcriptSection').style.display = 'none';
+                document.getElementById('textInput').value = '';
+                audioChunks = [];
+                updateStatus('🗑️ Conversation cleared', 'ready');
+                
+            } catch (error) {
+                console.error('Error clearing conversation:', error);
+                updateStatus('❌ Error clearing conversation', 'error');
+            }
+        }
+
+        // Initialize on page load
+        window.addEventListener('load', initConversation);
+
+        // Add keyboard shortcut for text input
+        document.getElementById('textInput').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter' && event.ctrlKey) {
+                submitInput();
+            }
+        });
+    </script>
+</body>
+</html>

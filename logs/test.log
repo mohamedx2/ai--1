@@ -1,0 +1,196 @@
+2026-02-13 05:01:33 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:01:33 - __main__ - INFO - run_all_tests:180 - Starting Assistant Agricole Multilingue Test Suite
+2026-02-13 05:01:33 - __main__ - INFO - run_test:38 - Running test: File Structure Check
+2026-02-13 05:01:33 - __main__ - INFO - run_test:43 - Test File Structure Check PASSED
+2026-02-13 05:01:33 - __main__ - INFO - run_test:38 - Running test: Language Detection
+2026-02-13 05:01:33 - utils - INFO - detect_language:61 - Language detected by keywords: en
+2026-02-13 05:01:34 - utils - INFO - detect_language:69 - Language detected by langdetect: fr
+2026-02-13 05:01:34 - utils - INFO - detect_language:69 - Language detected by langdetect: es
+2026-02-13 05:01:34 - utils - INFO - detect_language:69 - Language detected by langdetect: ar
+2026-02-13 05:01:34 - utils - INFO - detect_language:61 - Language detected by keywords: de
+2026-02-13 05:01:34 - __main__ - INFO - run_test:43 - Test Language Detection PASSED
+2026-02-13 05:01:34 - __main__ - INFO - run_test:38 - Running test: Multilingual Validation
+2026-02-13 05:01:34 - utils - INFO - detect_language:61 - Language detected by keywords: en
+2026-02-13 05:01:34 - __main__ - INFO - run_test:43 - Test Multilingual Validation PASSED
+2026-02-13 05:01:34 - __main__ - INFO - run_test:38 - Running test: Knowledge Base Initialization
+2026-02-13 05:01:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:01:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:01:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:01:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:01:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:01:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:01:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:01:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:01:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:01:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:01:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-02-13 05:01:37 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/xet-read-token/e8f8c211226b894fcb81acc59f3b34ba3efd5f42 "HTTP/1.1 200 OK"
+2026-02-13 05:02:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:02:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:02:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:02:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:02:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:02:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:02:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:02:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:02:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:02:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer.json "HTTP/1.1 302 Found"
+2026-02-13 05:02:20 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer.model "HTTP/1.1 404 Not Found"
+2026-02-13 05:02:20 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:02:20 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:02:20 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-02-13 05:02:20 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-02-13 05:02:20 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-02-13 05:02:22 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-13 05:02:22 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:02:22 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-13 05:02:22 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-13 05:02:22 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-13 05:02:22 - retrieval - INFO - _initialize:65 - Embeddings model loaded
+2026-02-13 05:02:22 - retrieval - INFO - _load_knowledge_base:103 - Loaded 16 document chunks
+2026-02-13 05:02:22 - retrieval - ERROR - _create_vector_store:121 - Failed to create vector store: 'Document' object has no attribute 'id'
+2026-02-13 05:02:22 - __main__ - ERROR - run_test:46 - Test Knowledge Base Initialization FAILED
+2026-02-13 05:02:22 - __main__ - INFO - run_test:38 - Running test: Knowledge Base Content
+2026-02-13 05:02:22 - __main__ - INFO - run_test:43 - Test Knowledge Base Content PASSED
+2026-02-13 05:02:22 - __main__ - INFO - run_test:38 - Running test: Supported Languages
+2026-02-13 05:02:22 - __main__ - INFO - run_test:43 - Test Supported Languages PASSED
+2026-02-13 05:02:22 - __main__ - INFO - run_test:38 - Running test: LLM Initialization
+2026-02-13 05:02:22 - llm_response - INFO - _initialize_model:28 - Loading model: microsoft/DialoGPT-medium
+2026-02-13 05:02:22 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:02:22 - huggingface_hub.utils._http - WARNING - _warn_on_warning_headers:779 - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-13 05:02:23 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:02:23 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:02:23 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-02-13 05:02:23 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:02:23 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-02-13 05:02:23 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/xet-read-token/7b40bb0f92c45fefa957d088000d8648e5c7fa33 "HTTP/1.1 200 OK"
+2026-02-13 05:03:16 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-02-13 05:03:17 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium "HTTP/1.1 200 OK"
+2026-02-13 05:03:17 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/commits/main "HTTP/1.1 200 OK"
+2026-02-13 05:03:17 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/discussions?p=0 "HTTP/1.1 200 OK"
+2026-02-13 05:03:17 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/commits/refs%2Fpr%2F22 "HTTP/1.1 200 OK"
+2026-02-13 05:03:17 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/refs%2Fpr%2F22/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/refs%2Fpr%2F22/model.safetensors "HTTP/1.1 302 Found"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/generation_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/generation_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/xet-read-token/169716c2f0052ed69970c8f6914817afb3acde65 "HTTP/1.1 200 OK"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/vocab.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/vocab.json "HTTP/1.1 200 OK"
+2026-02-13 05:03:18 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/vocab.json "HTTP/1.1 200 OK"
+2026-02-13 05:03:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/merges.txt "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:03:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/merges.txt "HTTP/1.1 200 OK"
+2026-02-13 05:03:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/merges.txt "HTTP/1.1 200 OK"
+2026-02-13 05:03:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:03:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/special_tokens_map.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:03:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/tokenizer.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:03:19 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-02-13 05:03:20 - llm_response - INFO - _initialize_model:57 - Model loaded successfully
+2026-02-13 05:03:20 - __main__ - INFO - run_test:43 - Test LLM Initialization PASSED
+2026-02-13 05:03:20 - __main__ - INFO - run_test:38 - Running test: Response Generation
+2026-02-13 05:03:20 - llm_response - INFO - generate_response:170 - Generated 5 characters response in en
+2026-02-13 05:03:20 - __main__ - ERROR - run_test:46 - Test Response Generation FAILED
+2026-02-13 05:03:20 - __main__ - INFO - run_test:38 - Running test: Whisper Model Loading
+2026-02-13 05:03:20 - __main__ - INFO - test_whisper_model_loading:121 - Testing Whisper model loading function...
+2026-02-13 05:03:20 - __main__ - INFO - run_test:43 - Test Whisper Model Loading PASSED
+2026-02-13 05:04:32 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:04:32 - __main__ - INFO - run_all_tests:179 - Starting Assistant Agricole Multilingue Test Suite
+2026-02-13 05:04:32 - __main__ - INFO - run_test:38 - Running test: File Structure Check
+2026-02-13 05:04:32 - __main__ - INFO - run_test:43 - Test File Structure Check PASSED
+2026-02-13 05:04:32 - __main__ - INFO - run_test:38 - Running test: Language Detection
+2026-02-13 05:04:32 - utils - INFO - detect_language:61 - Language detected by keywords: en
+2026-02-13 05:04:32 - utils - INFO - detect_language:69 - Language detected by langdetect: fr
+2026-02-13 05:04:32 - utils - INFO - detect_language:69 - Language detected by langdetect: es
+2026-02-13 05:04:32 - utils - INFO - detect_language:69 - Language detected by langdetect: ar
+2026-02-13 05:04:32 - utils - INFO - detect_language:61 - Language detected by keywords: de
+2026-02-13 05:04:32 - __main__ - INFO - run_test:43 - Test Language Detection PASSED
+2026-02-13 05:04:32 - __main__ - INFO - run_test:38 - Running test: Multilingual Validation
+2026-02-13 05:04:32 - utils - INFO - detect_language:61 - Language detected by keywords: en
+2026-02-13 05:04:32 - __main__ - INFO - run_test:43 - Test Multilingual Validation PASSED
+2026-02-13 05:04:32 - __main__ - INFO - run_test:38 - Running test: Knowledge Base Initialization
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:33 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:34 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:34 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:04:34 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:34 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:34 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:34 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:34 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:34 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:34 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:34 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:04:35 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:04:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-13 05:04:36 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:37 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:37 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-13 05:04:37 - retrieval - INFO - _initialize:65 - Embeddings model loaded
+2026-02-13 05:04:37 - retrieval - INFO - _load_knowledge_base:103 - Loaded 16 document chunks
+2026-02-13 05:04:37 - retrieval - ERROR - _create_vector_store:121 - Failed to create vector store: 'Document' object has no attribute 'id'
+2026-02-13 05:04:37 - __main__ - INFO - run_test:43 - Test Knowledge Base Initialization PASSED
+2026-02-13 05:04:37 - __main__ - INFO - run_test:38 - Running test: Knowledge Base Content
+2026-02-13 05:04:37 - __main__ - INFO - run_test:43 - Test Knowledge Base Content PASSED
+2026-02-13 05:04:37 - __main__ - INFO - run_test:38 - Running test: Supported Languages
+2026-02-13 05:04:37 - __main__ - INFO - run_test:43 - Test Supported Languages PASSED
+2026-02-13 05:04:37 - __main__ - INFO - run_test:38 - Running test: LLM Initialization
+2026-02-13 05:04:37 - llm_response - INFO - _initialize_model:28 - Loading model: microsoft/DialoGPT-medium
+2026-02-13 05:04:37 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:37 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/config.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:37 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-02-13 05:04:37 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium "HTTP/1.1 200 OK"
+2026-02-13 05:04:37 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/commits/main "HTTP/1.1 200 OK"
+2026-02-13 05:04:38 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/discussions?p=0 "HTTP/1.1 200 OK"
+2026-02-13 05:04:38 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/commits/refs%2Fpr%2F22 "HTTP/1.1 200 OK"
+2026-02-13 05:04:38 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 05:04:38 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/DialoGPT-medium/7b40bb0f92c45fefa957d088000d8648e5c7fa33/generation_config.json "HTTP/1.1 200 OK"
+2026-02-13 05:04:38 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/refs%2Fpr%2F22/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-02-13 05:04:38 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-13 05:04:38 - httpx - INFO - _send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/microsoft/DialoGPT-medium/resolve/refs%2Fpr%2F22/model.safetensors "HTTP/1.1 302 Found"
+2026-02-13 05:04:38 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-13 05:04:38 - llm_response - INFO - _initialize_model:57 - Model loaded successfully
+2026-02-13 05:04:38 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/microsoft/DialoGPT-medium/xet-read-token/169716c2f0052ed69970c8f6914817afb3acde65 "HTTP/1.1 200 OK"
+2026-02-13 05:04:38 - __main__ - INFO - run_test:43 - Test LLM Initialization PASSED
+2026-02-13 05:04:38 - __main__ - INFO - run_test:38 - Running test: Response Generation
+2026-02-13 05:04:39 - llm_response - INFO - generate_response:170 - Generated 11 characters response in en
+2026-02-13 05:04:39 - __main__ - INFO - run_test:43 - Test Response Generation PASSED
+2026-02-13 05:04:39 - __main__ - INFO - run_test:38 - Running test: Whisper Model Loading
+2026-02-13 05:04:39 - __main__ - INFO - test_whisper_model_loading:120 - Testing Whisper model loading function...
+2026-02-13 05:04:39 - __main__ - INFO - run_test:43 - Test Whisper Model Loading PASSED

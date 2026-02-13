@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "topic": "Wheat Irrigation",
+    "content": "Wheat requires moderate irrigation. Water at sowing, tillering, and grain filling stages for best yield. Avoid water stress during flowering. Typical water requirement: 450-600mm per season.",
+    "lang": "en"
+  },
+  {
+    "id": 2,
+    "topic": "Blé Irrigation",
+    "content": "Le blé nécessite une irrigation modérée. Arroser au semis, au tallage et au remplissage des grains pour un meilleur rendement. Éviter le stress hydrique pendant la floraison. Besoin en eau typique : 450-600mm par saison.",
+    "lang": "fr"
+  },
+  {
+    "id": 3,
+    "topic": "Riego de trigo",
+    "content": "El trigo requiere riego moderado. Regar en la siembra, el ahijamiento y el llenado de granos para un mejor rendimiento. Evitar el estrés hídrico durante la floración. Requerimiento típico de agua: 450-600mm por temporada.",
+    "lang": "es"
+  },
+  {
+    "id": 4,
+    "topic": "ري القمح",
+    "content": "يحتاج القمح إلى ري معتدل. يجب الري عند الزراعة، التفريع، وامتلاء الحبوب للحصول على أفضل إنتاجية. تجنب الإجهاد المائي أثناء الإزهار. الاحتياج المائي النموذجي: 450-600مم للموسم.",
+    "lang": "ar"
+  },
+  {
+    "id": 5,
+    "topic": "Corn Planting Guidelines",
+    "content": "Plant corn when soil temperature reaches 10°C at 10cm depth. Space seeds 20-25cm apart in rows 75cm apart. Planting depth: 5-7cm. Ideal planting time: April-May in Northern Hemisphere.",
+    "lang": "en"
+  },
+  {
+    "id": 6,
+    "topic": "Guide de plantation du maïs",
+    "content": "Plantez le maïs lorsque la température du sol atteint 10°C à 10cm de profondeur. Espacer les graines de 20-25cm dans des rangées de 75cm. Profondeur de plantation : 5-7cm. Période idéale : avril-mai dans l'hémisphère nord.",
+    "lang": "fr"
+  },
+  {
+    "id": 7,
+    "topic": "Guía de siembra de maíz",
+    "content": "Siembre maíz cuando la temperatura del suelo alcance 10°C a 10cm de profundidad. Separe las semillas 20-25cm en hileras de 75cm. Profundidad de siembra: 5-7cm. Época ideal: abril-mayo en el hemisferio norte.",
+    "lang": "es"
+  },
+  {
+    "id": 8,
+    "topic": "دليل زراعة الذرة",
+    "content": "ازرع الذرة عندما تصل درجة حرارة التربة إلى 10°م على عمق 10سم. افصل بين البذور 20-25سم في صفوف تبعد 75سم. عمق الزراعة: 5-7سم. الوقت المثالي: أبريل-مايو في النصف الشمالي من الكرة الأرضية.",
+    "lang": "ar"
+  },
+  {
+    "id": 9,
+    "topic": "Pest Control - Aphids",
+    "content": "Aphids can be controlled using natural predators like ladybugs. For severe infestations, use neem oil or insecticidal soap. Monitor plants weekly, especially undersides of leaves.",
+    "lang": "en"
+  },
+  {
+    "id": 10,
+    "topic": "Lutte antiparasitaire - Pucerons",
+    "content": "Les pucerons peuvent être contrôlés par des prédateurs naturels comme les coccinelles. Pour les infestations sévères, utilisez l'huile de neem ou du savon insecticide. Surveillez les plantes hebdomadairement, surtout le dessous des feuilles.",
+    "lang": "fr"
+  },
+  {
+    "id": 11,
+    "topic": "Control de plagas - Pulgones",
+    "content": "Los pulgones se pueden controlar con depredadores naturales como mariquitas. Para infestaciones severas, use aceite de neem o jabón insecticida. Monitoree las plantas semanalmente, especialmente el envés de las hojas.",
+    "lang": "es"
+  },
+  {
+    "id": 12,
+    "topic": "مكافحة الآفات - المن",
+    "content": "يمكن السيطرة على المن باستخدام الحيوانات المفترسة الطبيعية مثل أفراس النبي. للإصابات الشديدة، استخدم زيت النيم أو الصابون الحشري. راقب النباتات أسبوعياً، خاصة السطح السفلي للأوراق.",
+    "lang": "ar"
+  },
+  {
+    "id": 13,
+    "topic": "Soil pH Management",
+    "content": "Most crops prefer soil pH between 6.0-7.0. Test soil pH annually. To raise pH, add lime. To lower pH, add sulfur or organic matter. Acidic soils affect nutrient availability.",
+    "lang": "en"
+  },
+  {
+    "id": 14,
+    "topic": "Gestion du pH du sol",
+    "content": "La plupart des cultures préfèrent un pH du sol entre 6.0-7.0. Testez le pH du sol annuellement. Pour augmenter le pH, ajoutez de la chaux. Pour diminuer le pH, ajoutez du soufre ou de la matière organique. Les sols acides affectent la disponibilité des nutriments.",
+    "lang": "fr"
+  },
+  {
+    "id": 15,
+    "topic": "Manejo del pH del suelo",
+    "content": "La mayoría de los cultivos prefieren un pH del suelo entre 6.0-7.0. Pruebe el pH del suelo anualmente. Para aumentar el pH, agregue cal. Para disminuir el pH, agregue azufre o materia orgánica. Los suelos ácidos afectan la disponibilidad de nutrientes.",
+    "lang": "es"
+  },
+  {
+    "id": 16,
+    "topic": "إدارة درجة حموضة التربة",
+    "content": "معظم المحاصيل تفضل درجة حموضة التربة بين 6.0-7.0. اختبر درجة حموضة التربة سنوياً. لرفع درجة الحموضة، أضف الجير. لخفض درجة الحموضة، أضف الكبريت أو المادة العضوية. التربة الحمضية تؤثر على توفر العناصر الغذائية.",
+    "lang": "ar"
+  }
+]
