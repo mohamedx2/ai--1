@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <!-- Background circle -->
+  <circle cx="8" cy="8" r="7.5" fill="#2ecc71" stroke="#27ae60" stroke-width="0.5"/>
+  
+  <!-- Simplified wheat/plant icon -->
+  <g transform="translate(8, 8) scale(0.5)">
+    <!-- Main stem -->
+    <line x1="0" y1="8" x2="0" y2="-6" stroke="#f39c12" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Wheat grains -->
+    <ellipse cx="-4" cy="-4" rx="2.5" ry="3.5" fill="#f1c40f" transform="rotate(-30 -4 -4)"/>
+    <ellipse cx="4" cy="-4" rx="2.5" ry="3.5" fill="#f1c40f" transform="rotate(30 4 -4)"/>
+    <ellipse cx="-5" cy="2" rx="2.5" ry="3.5" fill="#f1c40f" transform="rotate(-20 -5 2)"/>
+    <ellipse cx="5" cy="2" rx="2.5" ry="3.5" fill="#f1c40f" transform="rotate(20 5 2)"/>
+    
+    <!-- Center grain -->
+    <ellipse cx="0" cy="-6" rx="3" ry="4" fill="#f39c12"/>
+  </g>
+</svg>

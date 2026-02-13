@@ -18,13 +18,21 @@ from llm_response import generate_response
 from utils import detect_language
 from logging_config import setup_logging
 import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Setup logging
 setup_logging()
 logger = logging.getLogger(__name__)
 
-# Get Gemini API key from environment
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyBBQ-okicASaEm1CP9Q8rzvLfYZJMEHvIc')
+# Get configuration from environment
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+HOST = os.getenv('HOST', '0.0.0.0')
+PORT = int(os.getenv('PORT', 8000))
+DEBUG = os.getenv('DEBUG', 'False').lower() == 'True'
+ALLOWED_ORIGINS = os.getenv('ALLOWED_ORIGINS', '*').split(',')
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -38,7 +46,7 @@ app = FastAPI(
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Configure this properly for production
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -304,8 +312,8 @@ if __name__ == "__main__":
     import uvicorn
     uvicorn.run(
         "fastapi_app:app",
-        host="0.0.0.0",
-        port=8000,
-        reload=True,
+        host=HOST,
+        port=PORT,
+        reload=DEBUG,
         log_level="info"
     )

@@ -318,3 +318,21 @@
 2026-02-13 05:24:54 - llm_response - INFO - generate_response:320 - Generating response with Gemini gemini-2.5-flash
 2026-02-13 05:25:09 - llm_response - INFO - _generate_gemini_response:343 - Generated 10736 characters response with Gemini in en
 2026-02-13 05:25:09 - fastapi_app - INFO - process_text_input:151 - [req_1770956694] Request completed in 15.40s
+2026-02-13 05:45:41 - fastapi_app - INFO - shutdown_event:301 - Assistant Agricole Multilingue FastAPI shutting down...
+2026-02-13 05:46:05 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:46:05 - logging_config - INFO - log_system_info:87 - System Info: {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.1",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "cuda_device_count": 0
+}
+2026-02-13 05:46:05 - fastapi_app - INFO - startup_event:302 - Assistant Agricole Multilingue FastAPI starting up...
+2026-02-13 05:46:05 - fastapi_app - INFO - startup_event:303 - Web interface available at: /
+2026-02-13 05:46:05 - fastapi_app - INFO - startup_event:304 - API Documentation available at: /docs
